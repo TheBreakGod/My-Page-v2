@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - My Page v2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- ส่วนหัว Profile จัด Layout ด้วย Table (คู่กับ Challenge ระยะห่างระหว่างรูปกับข้อความ) -->
+        <header>
+            <table class="profile-table" cellspacing="25">
+                <tr>
+                    <td>
+                        <img src="https://picsum.photos/id/64/200/200" alt="รูปโปรไฟล์" class="profile-img">
+                    </td>
+                    <td class="profile-info">
+                        <h1>สมชาย ใจดี (บอย)</h1>
+                        <p class="position"><em>Full Stack Web Developer (Student)</em></p>
+                        <p><strong>สาขาวิชา:</strong> เทคโนโลยีดิจิทัลและสารสนเทศ (DIT)</p>
+                        <p><strong>สถาบันการศึกษา:</strong> สถาบันการจัดการปัญญาภิวัฒน์ (PIM)</p>
+                        <div class="header-actions">
+                            <a href="contact.html" class="btn">ติดต่อฉัน (Contact Me)</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </header>
+
+        <hr>
+
+        <!-- ส่วน About Me -->
+        <section>
+            <h2>About Me (ประวัติสั้น ๆ)</h2>
+            <p>
+                สวัสดีครับ ผมเป็นนักศึกษาที่มีความสนใจในด้านการพัฒนาเว็บไซต์แบบ Full Stack Web Development 
+                มีความมุ่งมั่นในการเรียนรู้เทคโนโลยีใหม่ๆ ทั้งฝั่ง Frontend และ Backend เพื่อสร้างเว็บแอปพลิเคชันที่ตอบโจทย์ผู้ใช้งานและสามารถนำไปใช้งานได้จริง
+            </p>
+            <p>
+                <strong>ความคาดหวังต่อวิชานี้:</strong> คาดหวังว่าจะได้เรียนรู้โครงสร้างการสร้างเว็บอย่างครบวงจรและสามารถนำไปต่อยอดทำโปรเจกต์จริงได้<br>
+                <strong>จุดอ่อนและแนวทางการพัฒนา:</strong> กำลังพัฒนาทักษะด้านการคิดวิเคราะห์อัลกอริทึมและการจัดโครงสร้างโค้ดให้เป็นระเบียบ โดยฝึกทำโจทย์และเขียนโปรเจกต์ทบทวนอย่างสม่ำเสมอ
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- ส่วน Experience (ประสบการณ์การทำงาน) ตามรูปแบบในรูปภาพ -->
+        <section>
+            <h2>ประสบการณ์การทำงาน (Experience)</h2>
+            <table class="experience-table">
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Work Place</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2012 - 2013</td>
+                        <td>NECTEC</td>
+                    </tr>
+                    <tr>
+                        <td>2010</td>
+                        <td>Ericsson GmbH Eurolab</td>
+                    </tr>
+                    <tr>
+                        <td>2015 - 2017</td>
+                        <td>CP Retailink</td>
+                    </tr>
+                    <tr>
+                        <td>2015 - Present</td>
+                        <td>Panyapiwat Institute of Management</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- ส่วน Skills และระดับพลัง (Table 4 Columns ตามรูปแบบในรูปภาพ) -->
+        <section>
+            <h2>Skills</h2>
+            <div class="skills-box">
+                <table class="skills-table">
+                    <tr>
+                        <td>Java Programming</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                        <td>English</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                        <td>⭐⭐⭐</td>
+                        <td>日本語</td>
+                        <td>⭐</td>
+                    </tr>
+                    <tr>
+                        <td>HTML &amp; CSS</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>JavaScript</td>
+                        <td>⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- สิ่งที่ชอบทาน 3 อย่าง โดยใช้ ol / ul -->
+        <section>
+            <h2>สิ่งที่ชอบทาน 3 อย่าง</h2>
+            <ol class="favorite-food">
+                <li>ข้าวผัดกะเพราหมูกรอบไข่ดาว</li>
+                <li>ชาบู / สุกี้ยากี้</li>
+                <li>แซลมอนซาชิมิ</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <!-- ส่วน Footer ใส่ Link GitHub และ contact.html -->
+        <footer>
+            <p>
+                <a href="https://github.com/" target="_blank" class="footer-link">🌐 GitHub Profile</a> | 
+                <a href="contact.html" class="footer-link">✉️ Contact Me (หน้าติดต่อ)</a>
+            </p>
+            <p class="copyright">&copy; 2026 Somchai Jaidee - My Page v2</p>
+        </footer>
+    </div>
+
+</body>
+</html>

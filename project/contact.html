@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ติดต่อฉัน (Contact Me) - My Page v2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>ติดต่อฉัน (Contact Me)</h1>
+        <p>สามารถส่งข้อความหรือติดต่อสอบถามข้อมูลเพิ่มเติมได้ผ่านแบบฟอร์มด้านล่างนี้ครับ</p>
+
+        <hr>
+
+        <!-- ข้อมูลการติดต่อเบื้องต้น -->
+        <section>
+            <h2>ช่องทางการติดต่อ</h2>
+            <ul class="contact-list">
+                <li><strong>อีเมล:</strong> somchai.j@example.com</li>
+                <li><strong>เบอร์โทรศัพท์:</strong> 081-234-5678</li>
+                <li><strong>ที่อยู่:</strong> กรุงเทพมหานคร, ประเทศไทย</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- ฟอร์มการติดต่อ -->
+        <section>
+            <h2>ส่งข้อความถึงฉัน</h2>
+            <form action="mailto:somchai.j@example.com" method="post" enctype="text/plain" class="contact-form">
+                <div class="form-group">
+                    <label for="name">ชื่อ-นามสกุล (Your Name):</label>
+                    <input type="text" id="name" name="name" placeholder="กรอกชื่อของคุณ..." required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">อีเมล (Your Email):</label>
+                    <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">หัวข้อเรื่อง (Subject):</label>
+                    <input type="text" id="subject" name="subject" placeholder="เรื่องที่ต้องการติดต่อ...">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">ข้อความ (Your Message):</label>
+                    <textarea id="message" name="message" rows="5" placeholder="พิมพ์ข้อความของคุณที่นี่..." required></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn">ส่งข้อความ (Submit)</button>
+                    <a href="index.html" class="btn btn-secondary">⬅ กลับหน้าหลัก (Back to Home)</a>
+                </div>
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- ส่วน Footer -->
+        <footer>
+            <p>
+                <a href="https://github.com/" target="_blank" class="footer-link">🌐 GitHub Profile</a> | 
+                <a href="index.html" class="footer-link">🏠 หน้าหลัก (Home)</a>
+            </p>
+            <p class="copyright">&copy; 2026 Somchai Jaidee - My Page v2</p>
+        </footer>
+    </div>
+
+</body>
+</html>
